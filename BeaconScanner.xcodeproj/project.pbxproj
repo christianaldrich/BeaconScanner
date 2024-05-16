@@ -12,6 +12,7 @@
 		BAE7D90D2BF5147700E3E844 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7D90C2BF5147700E3E844 /* Item.swift */; };
 		BAE7D90F2BF5147800E3E844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7D90E2BF5147800E3E844 /* Assets.xcassets */; };
 		BAE7D9122BF5147800E3E844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7D9112BF5147800E3E844 /* Preview Assets.xcassets */; };
+		BAE7D9192BF514B200E3E844 /* beaconScanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7D9182BF514B200E3E844 /* beaconScanning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BAE7D90C2BF5147700E3E844 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BAE7D90E2BF5147800E3E844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE7D9112BF5147800E3E844 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE7D9182BF514B200E3E844 /* beaconScanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaconScanning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BAE7D9082BF5147700E3E844 /* BeaconScannerApp.swift */,
 				BAE7D90A2BF5147700E3E844 /* ContentView.swift */,
 				BAE7D90C2BF5147700E3E844 /* Item.swift */,
+				BAE7D9182BF514B200E3E844 /* beaconScanning.swift */,
 				BAE7D90E2BF5147800E3E844 /* Assets.xcassets */,
 				BAE7D9102BF5147800E3E844 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE7D9192BF514B200E3E844 /* beaconScanning.swift in Sources */,
 				BAE7D90B2BF5147700E3E844 /* ContentView.swift in Sources */,
 				BAE7D90D2BF5147700E3E844 /* Item.swift in Sources */,
 				BAE7D9092BF5147700E3E844 /* BeaconScannerApp.swift in Sources */,
@@ -279,6 +283,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "testing ios bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +313,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "testing ios bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

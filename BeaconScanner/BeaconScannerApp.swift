@@ -25,7 +25,7 @@ struct BeaconScannerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            beaconScanning()
         }
         .modelContainer(sharedModelContainer)
     }
